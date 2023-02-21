@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+
+.containerLogin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 960px;
+}
+
+.itemLogin1 {
+  background-color: rgb(255, 255, 255);
+}
+
+.itemLogin2 {
+  background-color: rgb(237, 249, 255);
+  text-align: center;
+}
+
+.imgSwitchLoogin {
+  width: 360px;
+  margin-top: 170px;
+  
+}
+
+/* Text */
+
+.textHeaderLogin1 {
+  font-family: 'Kanit', sans-serif;
+  margin-left: 40px;
+}
+
+.textHeaderLogin2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 45px;
+}
+
+.textLogin1 {
+  font-family: 'Kanit', sans-serif;
+  color: rgb(106, 106, 106);
+}
+
+.emailTextAuth {
+  font-family: 'Kanit', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.inpEmailAuth {
+  width: 415px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: lighter;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid rgb(228, 228, 228);
+  margin-top: 10px;
+}
+
+/* Blocks */
+
+.blockAuth1 {
+  margin-top: 190px;
+  margin-left: 250px;
+}
+
+/* Form */
+
+.form1 {
+  display: block;
+}
+
+.btnLogin1 {
+  transition: 0.4s;
+  width: 425px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(0, 149, 255);
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 149, 255);
+  margin-top: 15px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.btnLogin1:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  width: 425px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(0, 149, 255);
+  background-color: rgb(0, 149, 255);
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+}
+
+.linkBlockLogin {
+  display: flex;
+}
+
+.linkAccoiuntLogin {
+  font-family: 'Kanit', sans-serif;
+  color: rgb(81, 81, 81);
+  text-decoration: none;
+}
+
+.linkAccoiuntLogin1 {
+  font-family: 'Kanit', sans-serif;
+  color: rgb(81, 81, 81);
+  text-decoration: none;
+  margin-left: 40px;
+}

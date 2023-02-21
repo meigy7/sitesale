@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.conatinerSidebar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70px;
+}
+
+.itemSidebar1 {
+  background-color: rgba(223, 14, 14, 0);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 70px;
+  display: flex;
+}
+
+.itemSidebar2 { 
+  background-color: rgba(14, 223, 77, 0);
+  grid-column-start: 3;
+  grid-column-end: 4;
+  height: 70px;
+  display: flex;
+}
+
+.logoSidebar {
+  font-size: 25px;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.logoSidebar1 {
+  font-size: 25px;
+  margin-left: 2%;
+  margin-top: 5px;
+  font-family: 'Cedarville Cursive', cursive;
+  border: none;
+  background-color: #ffffff00;
+  color: #000000;
+  display: none;
+}
+
+.blockLinkSidebar {
+  display: flex;
+  margin-left: 1%;
+  font-size: 25px;
+}
+
+.linkSidebar1 {
+  margin-left: 30px;
+  margin-top: 15px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.linkLogoSidebar {
+  text-decoration: none;
+  color: black;
+}
+
+.linkLogoSidebar1 {
+  text-decoration: none;
+  color: black;
+}
+
+
+.linkLogoSidebar:active {
+  text-decoration: none;
+  color: black;
+}
+
+.blockDSecretOne {
+  margin-top: 30px;
+}
+
+.underline-one {
+  transition: 0.4s;
+  color: #929292;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.underline-one:hover {
+  transition: 0.4s;
+  color: #000000;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+.lineSidebar {
+  height: 1px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border: none;
+  background-color: #d2d2d2;
+}
+
+.btnLogout {
+  transition: 0.4s;
+  width: 120px;
+  height: 40px;
+  font-size: 17px;
+  color: rgb(184, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(184, 0, 0);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.searchInp {
+  height: 38px;
+  background-color: #00000000;
+  border: 1px solid #9e9e9e;
+  border-radius: 7px;
+  font-size: 17px;
+  padding-left: 10px;
+  outline: none;
+  font-family: 'Kanit', sans-serif;
+  font-weight: lighter;
+  margin-left: 40%;
+  margin-top: 15px;
+}
+
+.searchInpSecret {
+  height: 38px;
+  background-color: #00000000;
+  border: 1px solid #9e9e9e;
+  border-radius: 7px;
+  font-size: 17px;
+  padding-left: 10px;
+  outline: none;
+  font-family: 'Kanit', sans-serif;
+  font-weight: lighter;
+  margin-left: 4%;
+  margin-top: 10px;
+}
+
+
+.btnLogout:hover {
+  transition: 0.4s;
+  width: 120px;
+  height: 40px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  ;
+  background-color: rgb(184, 0, 0);
+  border: 1px solid rgb(184, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.divSidebarSecret {
+  display: block;
+  margin-top: 20px;
+}
+
+.imgCustomNavbarSecret {
+  width: 40px;
+  height: 40px;
+}
+
+.secretContainerSidebar {
+  display: grid;
+  grid-column-start: 1fr 1fr 1fr;
+  grid-template-rows: 400px 500px;
+}
+
+.secretBlockSidebar1 {
+  position: absolute;
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 200px;
+}
+
+.blockCustomSecretNavbar {
+  position: absolute;
+  background-color: rgb(225, 225, 225);
+  height: 100%;
+  width: 540px;
+  display: block;
+}
+
+.blockOneSecretSidebar {
+  font-family: 'Kanit', sans-serif;
+  margin-top: 10px;
+}
+
+.logoSiteSaleSecretSidebar {
+  font-family: 'Kanit', sans-serif;
+  margin-left: 20px;
+}
+
+.logoblockSecret {
+  display: flex;
+}
+
+.offSidebar {
+  transition: 0.5s;
+  width: 40px;
+  height: 40px;
+  background-color: #d2d2d200;
+  border: none;
+  margin-left: 335px;
+  margin-top: 5px;
+}
+
+.offSidebar:hover {
+  transition: 0.5s;
+  width: 40px;
+  height: 40px;
+  transform: rotate(-90deg);
+  cursor: pointer;
+
+}
+
+.arrowSecretSidebar {
+  width: 40px;
+  height: 40px;
+}
+
+.inputBlockProductsSecret {
+  margin-left: 3px;
+}
+
+/* InputSearch */
+
+.SinputBlockProducts {
+  display: flex;
+  margin-left: 20px;
+}
+
+.SinpProductSearch1 {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px 0px 0px 5px;
+  border-left: 1px solid rgba(216, 216, 216, 0.554);
+  border-right: 1px solid rgba(216, 216, 216, 0);
+  border-bottom: 1px solid rgba(216, 216, 216, 0.554);
+  border-top: 1px solid rgba(216, 216, 216, 0.554);
+}
+
+.SimgProducts {
+  width: 25px;
+  margin-top: 30%;
+  margin-left: 15px;
+}
+
+.SinpProductSearch2 {
+  width: 300px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  outline: none;
+  border-left: 1px solid rgba(216, 216, 216, 0.554);
+  border-right: 1px solid rgba(216, 216, 216, 0);
+  border-bottom: 1px solid rgba(216, 216, 216, 0.554);
+  border-top: 1px solid rgba(216, 216, 216, 0.554);
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.SinpProductSearch3 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 5px 5px 0px;
+  border-left: none;
+  border-left: 1px solid rgba(216, 216, 216, 0);
+  border-right: 1px solid rgba(216, 216, 216, 0.554);
+  border-bottom: 1px solid rgba(216, 216, 216, 0.554);
+  border-top: 1px solid rgba(216, 216, 216, 0.554);
+}
+
+.SbtnFiltersProducts {
+  transition: 0.4s;
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.741);
+}
+
+.SimgSettingsProducts {
+  width: 30px;
+  height: 30px;
+}
+
+.blockSecretSidebar {
+  position: absolute;
+  background-color: #f2fbff;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 400px;
+  height: 100%;
+}
+
+.btnLogutSecret {
+  transition: 0.4s;
+  width: 120px;
+  height: 40px;
+  font-size: 17px;
+  color: rgb(184, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(184, 0, 0);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.btnCustomNavbarSecret {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff00;
+  border: none;
+  cursor: pointer;
+  margin-left: 1700px;
+  margin-top: 10px;
+}
+
+
+.logoSidebar2 {
+  font-size: 25px;
+  margin-left: 2%;
+  margin-top: 5px;
+  font-family: 'Cedarville Cursive', cursive;
+  border: none;
+  background-color: rgba(245, 17, 17, 0);
+  color: #000000;
+  display: none;
+}
+
+
+@media screen and (max-width: 1320px) {
+  .searchInp {
+    display: none;
+  }
+
+  .btnLogout {
+    transition: 0.4s;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    color: rgb(184, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(184, 0, 0);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 290px;
+  }
+  
+}
+
+@media screen and (max-width: 720px) {
+  .blockLinkSidebar {
+    display: none;
+  }
+
+  .btnLogout {
+    transition: 0.4s;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    color: rgb(184, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(184, 0, 0);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 85px;
+  }
+
+  .logoSidebar {
+    display: none;
+  }
+
+  .logoSidebar1 {
+    font-size: 25px;
+    margin-left: 2%;
+    margin-top: 5px;
+    font-family: 'Cedarville Cursive', cursive;
+    border: none;
+    background-color: rgba(245, 17, 17, 0);
+    color: #000000;
+    display: block;
+  }
+
+  
+.logoSidebar2 {
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top: 5px;
+  font-family: 'Cedarville Cursive', cursive;
+  border: none;
+  background-color: rgba(245, 17, 17, 0);
+  color: #000000;
+  display: block;
+}
+
+
+}
+
+
+@media screen and (max-width: 540px) {
+
+  .blockCustomNavbarSecret {
+    margin-top: 10px;
+    margin-left: 69%;
+  }
+
+  .btnCustomNavbarSecret {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btnLogout {
+    transition: 0.4s;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    color: rgb(184, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(184, 0, 0);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 47px;
+  }
+  
+}

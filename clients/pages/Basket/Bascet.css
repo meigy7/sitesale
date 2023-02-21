@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+
+.containerBascet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70px 800px;
+}
+
+.itemBascet1 {
+  background-color: rgb(254, 254, 254);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+}
+
+.itemBascet2 {
+  background-color: rgb(255, 255, 255);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  overflow: auto;
+  margin: 0%;
+  padding: 0%;
+}
+
+.itemBascet3 {
+  background-color: rgb(255, 255, 255);
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.itemBascet2::-webkit-scrollbar {
+  width: 4px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.itemBascet2::-webkit-scrollbar-thumb {
+  width: 4px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Text */
+.bascetHeader1 {
+  font-family: 'Kanit', sans-serif;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.bascetHeader2 {
+  color: #515151;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.textBuscet1 {
+  color: #515151;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.interkassaHeader1 {
+  color: #515151;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.interkassaHeader2 {
+  color: #515151;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.blockInterkassa1 {
+  display: flex;
+}
+
+/* Btn */
+
+.btnBascet {
+  height: 40px;
+}
+
+.btnBascet {
+
+}
+
+.wayPay {
+  color: #515151;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  border: none;
+  background-color: #51515100;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btnBtnBuscet {
+  transition: 0.4s;
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 55%;
+}
+
+.btnBtnBuscet:hover {
+  transition: 0.4s;
+  transform: rotate(-90deg);
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+
+/* Input */
+
+.labelCardPay1 {
+
+}
+
+.inpCardPay1 {
+
+}
+
+@media screen and (max-width: 1320px) {
+  
+}
+
+@media screen and (max-width: 1140px) {
+
+}
+
+/* @media screen and (max-width: 720px) {
+  .containerBascet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 500px 200px;
+  }
+
+  .itemBascet2 {
+    background-color: rgb(217, 251, 48);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+  
+  .itemBascet3 {
+    background-color: rgb(25, 176, 83);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+} */
+
+@media screen and (max-width: 540px) {
+  
+}
